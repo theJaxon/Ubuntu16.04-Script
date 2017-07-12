@@ -11,6 +11,9 @@ sudo add-apt-repository ppa:snwh/pulp
 #Adding Adapta Theme
 sudo add-apt-repository ppa:tista/adapta
 
+#Netspeed Unity indicator
+sudo apt-add-repository ppa:fixnix/netspeed
+
 #Adding Etcher
 cd /etc/apt/sources.list.d/ | sudo touch etcher.list
 echo "deb https://dl.bintray.com/resin-io/debian stable etcher" >> "etcher.list"
@@ -26,7 +29,7 @@ sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu xenial-getdeb apps" >> /e
 sudo apt-get update
 
 #Needed packages
-apt-get install clementine gdebi gpodder git curl vlc synapse synaptic okular zsh sublime-text atom code vim calibre vagrant virtualbox qbittorrent unity-tweak-tool ubuntu-tweak paper-icon-theme powerline adapta chromium-browser etcher-electron picard -y
+apt-get install clementine gdebi gpodder git curl vlc synapse synaptic okular zsh sublime-text atom code vim calibre vagrant virtualbox qbittorrent unity-tweak-tool ubuntu-tweak paper-icon-theme powerline adapta chromium-browser etcher-electron picard indicator-netspeed-unity -y
 
 #Fixing Synaptic search
 sudo apt-get install apt-xapian-index | sudo update-apt-xapian-index -vf

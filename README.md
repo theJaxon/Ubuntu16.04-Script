@@ -7,3 +7,11 @@ After setting up the Ubuntu OS, update the system, place this script in your hom
 I made this script since i was tired of having to add repos and search with synaptic for every single app i want so i collected all the programs i install , all the indicators and themes in this script.
 
 Also there used to be more files in the Templates folder but i forgot which ones were there so this script creates 3 files in the Templates folder just to make things a bit easier.
+
+#### Running the script:
+
+```bash
+cd ~
+chmod -R 777 Ubuntu16.04-Script
+./Ubuntu16.04-Script
+```
